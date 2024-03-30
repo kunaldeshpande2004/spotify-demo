@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0b0b;
+    overflow: hidden;
+  
+}
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    max-width: 100vw; 
+}
+
+.panel {
+   
+    margin: 10px; 
+    border-radius: 10px;
+    
+}
+.bg-grey {
+    background-color: #242121;
+}
+
+.bg-black {
+    background-color: #0f0b0b;
+}
+.menu-main{
+    
+    height: 20vh;
+    width: 25vw;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+}
+.library-container{
+    padding: 10px;
+    height: 31rem;
+    width: 25vw;
+    color: white;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+ 
+}
+.sethw{
+    height: 100vh;
+    width: 100vw;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu:hover {
+    color: #1DB954; 
+}
+
+.menu i {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.signlog{
+     height: 4.5rem;
+     width: 61.5rem;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 15px;
+     display: flex;
+     justify-content: flex-end;
+     border-radius: 10px;
+     align-items: center;
+     gap: 1.5rem;
+}
+#log{
+    border-radius: 28px;
+    font-size: 1.2rem;
+    margin: 3px;
+    border: none;
+    padding: 20px;
+    width: 7.8rem;
+    height:3.5rem ;
+    background-color: beige;;
+    color: #0f0b0b;
+
+}
+#sign{
+    border-radius: 25px;
+    margin: 3px;
+    font-size: 1.2rem;
+    padding: 20px;
+    border: none;
+    color: rgb(173, 169, 162);
+    background-color: #242121;
+}
+#log:hover{
+   opacity: 2;
+   background-color: white;
+   cursor: pointer;
+   font-size: 1.25rem;
+   
+
+}
+#sign:hover{
+    opacity: 2;
+    color:white;
+    cursor: pointer;
+    font-size: 1.25rem;
+ }
+
+ #song-cont{
+     display: flex;
+     color: beige;
+     background-color:#332f2f;
+     width: 100%;
+     height: 18rem;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ .song{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color:#201f1f;
+    width: 13rem;
+    height: 16rem;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px;
+ }
+ img{
+     height: 10rem;
+     width: 12rem;
+     border-radius: 8px;
+    
+     
+ }
+ .song h5{
+     color: beige;
+    margin-top: 6px;
+    font-size: 1.1rem;
+ }
+ .song h6{
+    color: rgb(173, 169, 162);
+    margin-top: 7px;
+    font-size: 0.9rem;
+}
+ .song:hover{
+     opacity:0.8;
+     cursor: pointer;
+ }
+ #play-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #353434; /* Spotify's background color */
+    cursor: pointer;
+}
+
+#playbtn {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #1db954; /* Spotify's green color */
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    opacity:0.9;
+}
+
+#bar {
+    flex: 1;
+    height: 8px;
+    background-color: #535353;
+    position: relative;
+    border-radius: 4px;
+}
+
+#dot {
+     border-top-right-radius: 50%;
+     border-bottom-right-radius: 50%;
+    height: 8px;
+    background-color: #1db954;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ #son-dis{
+    color: beige;
+    background-color:#292727;
+    width: 61.5rem;
+    height: 34.5rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.disclamer{
+    margin-top: 7px;
+    padding: 10px;
+    gap: 10rem;
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+.dis{
+    font-size: 1.15rem;
+}
